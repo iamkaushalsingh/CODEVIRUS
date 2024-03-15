@@ -17,10 +17,12 @@ body {
 
 
 header {
-    background-color: #333;
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 header nav ul {
@@ -40,15 +42,17 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ddd;
+    color: #ffd700;
 }
 
 
 footer {
-    background-color: #333;
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 
@@ -63,15 +67,15 @@ p {
 
 .button {
     display: inline-block;
-    background-color: #333;
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease;
 }
 
 .button:hover {
-    background-color: #555;
+    background: linear-gradient(135deg, #2c3e50, #2980b9);
 }
