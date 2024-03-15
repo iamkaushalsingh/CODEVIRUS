@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -13,7 +13,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
+
 header {
     background: #2962ff;
     padding: 20px 0;
@@ -40,20 +40,20 @@ header nav ul li a {
     font-size: 18px;
 }
 
-/* Main Content Styles */
-.courses-container { /* Added style for the courses container */
-    padding-bottom: 40px; /* Adjusted padding to push footer down */
+
+.courses-container { 
+    padding-bottom: 40px; 
 }
 
 .course {
-    margin-bottom: 40px; /* Added margin between courses */
+    margin-bottom: 40px; 
 }
 
 .course h3 {
-    margin-top: 20px; /* Added spacing between course title and description */
+    margin-top: 20px; 
 }
 
-/* Button Styles */
+
 .button {
     display: inline-block;
     background: #2962ff;
@@ -69,7 +69,7 @@ header nav ul li a {
     background: #0039cb;
 }
 
-/* Footer Styles */
+
 footer {
     background: #2962ff;
     padding: 20px 0;
