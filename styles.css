@@ -1,33 +1,32 @@
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f6f6f6;
+    color: #333;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-
+/* Header Styles */
 header {
-    background: linear-gradient(135deg, #2980b9, #2c3e50);
+    background: #2962ff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
     color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 header nav ul {
     list-style-type: none;
-    padding: 0;
 }
 
 header nav ul li {
@@ -38,44 +37,56 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 18px;
 }
 
-header nav ul li a:hover {
-    color: #ffd700;
+/* Main Content Styles */
+.courses-container { /* Added style for the courses container */
+    padding-bottom: 40px; /* Adjusted padding to push footer down */
 }
 
-
-footer {
-    background: linear-gradient(135deg, #2980b9, #2c3e50);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.course {
+    margin-bottom: 40px; /* Added margin between courses */
 }
 
-
-h1, h2 {
-    color: #333;
+.course h3 {
+    margin-top: 20px; /* Added spacing between course title and description */
 }
 
-p {
-    color: #666;
-}
-
-
+/* Button Styles */
 .button {
     display: inline-block;
-    background: linear-gradient(135deg, #2980b9, #2c3e50);
+    background: #2962ff;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .button:hover {
-    background: linear-gradient(135deg, #2c3e50, #2980b9);
+    background: #0039cb;
+}
+
+/* Footer Styles */
+footer {
+    background: #2962ff;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.social-icons .icon-link {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons .icon-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
